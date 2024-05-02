@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 
 import ImagePicker from '../ImagePicker.jsx';
-import { ErrorBlock } from '../../components/UI/ErrorBlock.jsx';
+import ErrorBlock from '../UI/ErrorBlock.jsx';
 import { fetchSelectableImages } from '../../util/http.js';
 
 export default function EventForm({ inputData, onSubmit, children }) {
